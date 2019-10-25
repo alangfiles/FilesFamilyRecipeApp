@@ -1,7 +1,7 @@
 import { Button, StyleSheet, TextInput, View } from "react-native";
 
 import React from "react";
-import recipes from "../data/recipes";
+import { getRandomRecipe } from "../data/service";
 
 export default function SearchBox({ searchText, textValue, randomRecipe }) {
   return (
@@ -19,7 +19,8 @@ export default function SearchBox({ searchText, textValue, randomRecipe }) {
         title="Random Recipe"
         color="#ccc"
         onPress={() => {
-          randomRecipe(recipes[Math.floor(Math.random() * recipes.length)]);
+          const recipe = getRandomRecipe();
+          randomRecipe(recipe);
         }}
       />
     </View>

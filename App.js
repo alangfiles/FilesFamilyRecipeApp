@@ -3,14 +3,12 @@ import { PixelRatio, ScrollView, StyleSheet, View } from "react-native";
 import React from "react";
 import RecipeCard from "./components/RecipeCard";
 import SearchBox from "./components/SearchBox";
-import recipes from "./data/recipes";
+import { getRandomRecipe } from "./data/service";
 
 export default function App() {
   const [textValue, onChangeText] = React.useState("Search Recipes");
 
-  const [recipe, changeRecipe] = React.useState(
-    recipes[Math.floor(Math.random() * recipes.length)]
-  );
+  const [recipe, changeRecipe] = React.useState(getRandomRecipe());
 
   return (
     <ScrollView style={styles.wrapper}>
@@ -35,7 +33,7 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
   wrapper: {
-    paddingTop: 40,
-    margin: PixelRatio.getPixelSizeForLayoutSize(10)
+    padding: PixelRatio.getPixelSizeForLayoutSize(10),
+    paddingTop: 40
   }
 });
