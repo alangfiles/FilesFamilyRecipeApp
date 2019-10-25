@@ -22,13 +22,13 @@ export default function RecipeCard(data) {
 const styles = StyleSheet.create({
   card: {
     backgroundColor: "lightyellow",
-    margin: PixelRatio.getPixelSizeForLayoutSize(10),
     padding: PixelRatio.getPixelSizeForLayoutSize(8),
     paddingTop: 0,
     borderTopWidth: PixelRatio.getPixelSizeForLayoutSize(6),
     borderRadius: PixelRatio.getPixelSizeForLayoutSize(5),
     shadowColor: "black",
-    shadowRadius: 5
+    shadowRadius: 5,
+    alignSelf: "stretch"
   },
   cardType: {},
   cardTitle: {
