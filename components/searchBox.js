@@ -1,21 +1,23 @@
 import { StyleSheet, TextInput, View } from "react-native";
+import { getRecipeList, getRecipeListAsync } from "../data/service";
 
 import React from "react";
-import { getRecipeList } from "../data/service";
 
-export default function SearchBox({ changeRecipe }) {
+export default function SearchBox({ changeRecipe, toggleLoading }) {
   const [textValue, onChangeText] = React.useState("");
 
   return (
     <TextInput
       style={styles.textInput}
       placeholder="Search Recipes"
-      onChangeText={text => {
+      onChangeText={async text => {
+        toggleLoading(true);
         onChangeText(text);
         if (text.length > 2) {
-          const recipes = getRecipeList(text);
+          const recipes = await getRecipeListAsync(text);
           changeRecipe(recipes);
         }
+        toggleLoading(false);
       }}
       value={textValue}
     />

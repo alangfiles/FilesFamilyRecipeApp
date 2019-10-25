@@ -1,4 +1,11 @@
-import { Button, PixelRatio, ScrollView, StyleSheet, View } from "react-native";
+import {
+  Button,
+  PixelRatio,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View
+} from "react-native";
 
 import CategoriesBox from "./components/CategoriesBox";
 import React from "react";
@@ -8,8 +15,8 @@ import { getRandomRecipe } from "./data/service";
 
 export default function App() {
   const [recipes, changeRecipe] = React.useState([getRandomRecipe()]);
-
   const [currentCategory, changeCategory] = React.useState("ALL");
+  const [loading, toggleLoading] = React.useState(false);
 
   return (
     <ScrollView style={styles.wrapper}>
@@ -19,6 +26,7 @@ export default function App() {
             changeRecipe(value);
             changeCategory("ALL");
           }}
+          toggleLoading={toggleLoading}
         />
         <Button
           title="Random Recipe"
@@ -37,9 +45,11 @@ export default function App() {
       </View>
 
       <View style={styles.container}>
-        {recipes.map((r, idx) => (
-          <RecipeCard key={idx} recipe={r} />
-        ))}
+        {loading ? (
+          <Text>Loading...</Text>
+        ) : (
+          recipes.map((r, idx) => <RecipeCard key={idx} recipe={r} />)
+        )}
       </View>
     </ScrollView>
   );

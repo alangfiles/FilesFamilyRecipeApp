@@ -30,6 +30,12 @@ function searchTerm(word) {
   return resultSet;
 }
 
+export const getRecipeListAsync = async search => {
+  return new Promise(resolve => {
+    resolve(getRecipeList(search));
+  });
+};
+
 export const getRecipeList = search => {
   query = search.toLowerCase();
   let words = query.split(" ");
