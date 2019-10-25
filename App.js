@@ -6,17 +6,11 @@ import SearchBox from "./components/SearchBox";
 import { getRandomRecipe } from "./data/service";
 
 export default function App() {
-  const [textValue, onChangeText] = React.useState("Search Recipes");
-
   const [recipe, changeRecipe] = React.useState(getRandomRecipe());
 
   return (
     <ScrollView style={styles.wrapper}>
-      <SearchBox
-        textValue={textValue}
-        searchText={onChangeText}
-        randomRecipe={changeRecipe}
-      />
+      <SearchBox changeRecipe={changeRecipe} />
       <View style={styles.container}>
         <RecipeCard recipe={recipe} />
       </View>

@@ -1,16 +1,22 @@
 import { Button, StyleSheet, TextInput, View } from "react-native";
+import { getRandomRecipe, getRecipeList } from "../data/service";
 
 import React from "react";
-import { getRandomRecipe } from "../data/service";
 
-export default function SearchBox({ searchText, textValue, randomRecipe }) {
+export default function SearchBox({ changeRecipe }) {
+  const [textValue, onChangeText] = React.useState("Search Recipes");
+
   return (
     <View style={styles.container}>
       <TextInput
         style={styles.textInput}
         onChangeText={text => {
+          onChangeText(text);
           if (text.length > 3) {
-            searchText(text);
+            const recipes = getRecipeList(text);
+            if (recipes && recipes.length > 0) {
+              changeRecipe(recipes[0]);
+            }
           }
         }}
         value={textValue}
@@ -20,7 +26,7 @@ export default function SearchBox({ searchText, textValue, randomRecipe }) {
         color="#ccc"
         onPress={() => {
           const recipe = getRandomRecipe();
-          randomRecipe(recipe);
+          changeRecipe(recipe);
         }}
       />
     </View>
