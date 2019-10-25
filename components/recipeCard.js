@@ -2,8 +2,7 @@ import { PixelRatio, StyleSheet, Text, View } from "react-native";
 
 import React from "react";
 
-export default function RecipeCard(data) {
-  const recipe = data.recipe;
+export default function RecipeCard({ recipe }) {
   const recipeTypeStyle = recipe.type
     .toLowerCase()
     .replace(/,/g, "")
@@ -24,6 +23,7 @@ const styles = StyleSheet.create({
     backgroundColor: "lightyellow",
     padding: PixelRatio.getPixelSizeForLayoutSize(8),
     paddingTop: 0,
+    marginBottom: 20,
     borderTopWidth: PixelRatio.getPixelSizeForLayoutSize(6),
     borderRadius: PixelRatio.getPixelSizeForLayoutSize(5),
     shadowColor: "black",

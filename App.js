@@ -6,13 +6,15 @@ import SearchBox from "./components/SearchBox";
 import { getRandomRecipe } from "./data/service";
 
 export default function App() {
-  const [recipe, changeRecipe] = React.useState(getRandomRecipe());
+  const [recipes, changeRecipe] = React.useState([getRandomRecipe()]);
 
   return (
     <ScrollView style={styles.wrapper}>
       <SearchBox changeRecipe={changeRecipe} />
       <View style={styles.container}>
-        <RecipeCard recipe={recipe} />
+        {recipes.map((r, idx) => (
+          <RecipeCard key={idx} recipe={r} />
+        ))}
       </View>
     </ScrollView>
   );
@@ -21,6 +23,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     paddingTop: PixelRatio.getPixelSizeForLayoutSize(10),
+    marginBottom: PixelRatio.getPixelSizeForLayoutSize(20),
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",

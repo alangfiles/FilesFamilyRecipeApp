@@ -12,11 +12,9 @@ export default function SearchBox({ changeRecipe }) {
         style={styles.textInput}
         onChangeText={text => {
           onChangeText(text);
-          if (text.length > 3) {
+          if (text.length > 2) {
             const recipes = getRecipeList(text);
-            if (recipes && recipes.length > 0) {
-              changeRecipe(recipes[0]);
-            }
+            changeRecipe(recipes);
           }
         }}
         value={textValue}
@@ -26,7 +24,7 @@ export default function SearchBox({ changeRecipe }) {
         color="#ccc"
         onPress={() => {
           const recipe = getRandomRecipe();
-          changeRecipe(recipe);
+          changeRecipe([recipe]);
         }}
       />
     </View>
