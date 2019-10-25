@@ -1,6 +1,4 @@
-export default recipes;
-
-const recipes = [
+export default recipes = [
   {
     title: "Artichoke Heart Dip ",
     type: "APPETIZERS AND SNACKS",

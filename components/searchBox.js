@@ -1,7 +1,8 @@
-import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function searchBox() {
+import React from "react";
+
+export default function SearchBox() {
   return (
     <View style={styles.container}>
       <Text>SearchBox</Text>

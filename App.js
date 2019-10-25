@@ -1,10 +1,14 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
+
+import React from "react";
+import RecipeCard from "./components/RecipeCard";
+import recipes from "./data/recipes";
 
 export default function App() {
+  const recipe = recipes[Math.floor(Math.random() * recipes.length)];
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <RecipeCard recipe={recipe} />
     </View>
   );
 }
@@ -12,8 +16,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
 });
