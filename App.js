@@ -1,5 +1,6 @@
-import { PixelRatio, ScrollView, StyleSheet, View } from "react-native";
+import { Button, PixelRatio, ScrollView, StyleSheet, View } from "react-native";
 
+import CategoriesBox from "./components/CategoriesBox";
 import React from "react";
 import RecipeCard from "./components/RecipeCard";
 import SearchBox from "./components/SearchBox";
@@ -8,9 +9,33 @@ import { getRandomRecipe } from "./data/service";
 export default function App() {
   const [recipes, changeRecipe] = React.useState([getRandomRecipe()]);
 
+  const [currentCategory, changeCategory] = React.useState("ALL");
+
   return (
     <ScrollView style={styles.wrapper}>
-      <SearchBox changeRecipe={changeRecipe} />
+      <View style={styles.topBar}>
+        <SearchBox
+          changeRecipe={value => {
+            changeRecipe(value);
+            changeCategory("ALL");
+          }}
+        />
+        <Button
+          title="Random Recipe"
+          color="#ccc"
+          onPress={() => {
+            const recipe = getRandomRecipe();
+            changeRecipe([recipe]);
+            changeCategory("ALL");
+          }}
+        />
+        <CategoriesBox
+          currentCategory={currentCategory}
+          changeCategory={changeCategory}
+          changeRecipe={changeRecipe}
+        />
+      </View>
+
       <View style={styles.container}>
         {recipes.map((r, idx) => (
           <RecipeCard key={idx} recipe={r} />
@@ -28,6 +53,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center"
+  },
+  topBar: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    flexDirection: "column",
+    flexWrap: "wrap"
   },
   wrapper: {
     padding: PixelRatio.getPixelSizeForLayoutSize(10),
