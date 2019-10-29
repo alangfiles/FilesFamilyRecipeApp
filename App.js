@@ -1,4 +1,11 @@
-import { Button, PixelRatio, ScrollView, StyleSheet, View } from "react-native";
+import {
+  Button,
+  PixelRatio,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View
+} from "react-native";
 
 import CategoriesBox from "./components/CategoriesBox";
 import React from "react";
@@ -36,6 +43,11 @@ export default function App() {
         />
       </View>
 
+      {recipes.length != 1 && (
+        <Text style={{ fontSize: 20, fontWeight: "bold" }}>
+          {recipes.length} Recipes Found
+        </Text>
+      )}
       <View style={styles.container}>
         {recipes.map((r, idx) => (
           <RecipeCard key={idx} recipe={r} />

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Files Family Recipes",
-    "slug": "FilesFamilyRecipeApp",
+    "slug": "filesfamilyrecipesapp",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": ["ios", "android", "web"],
@@ -18,7 +18,8 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "org.alangfiles.recipeapp"
     },
     "android": {
       "package": "org.alangfiles.recipeapp"
