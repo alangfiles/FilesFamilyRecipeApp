@@ -10,20 +10,27 @@ export default function RecipeCard({ recipe }) {
     .join("");
 
   return (
-    <View style={[styles.card, styles[recipeTypeStyle]]}>
-      <Text style={styles.cardType}>{recipe.type}</Text>
-      <Text style={styles.cardTitle}>{recipe.title}</Text>
-      <Text style={styles.cardText}>{recipe.recipe}</Text>
+    <View style={styles.border}>
+      <View style={[styles.card, styles[recipeTypeStyle]]}>
+        <Text style={styles.cardType}>{recipe.type}</Text>
+        <Text style={styles.cardTitle}>{recipe.title}</Text>
+        <Text style={styles.cardText}>{recipe.recipe}</Text>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  border: {
+    borderRadius: PixelRatio.getPixelSizeForLayoutSize(5),
+    borderWidth: 1,
+    borderColor: "#ccc",
+    marginBottom: 20
+  },
   card: {
     backgroundColor: "lightyellow",
     padding: PixelRatio.getPixelSizeForLayoutSize(8),
     paddingTop: 0,
-    marginBottom: 20,
     borderTopWidth: PixelRatio.getPixelSizeForLayoutSize(6),
     borderRadius: PixelRatio.getPixelSizeForLayoutSize(5),
     shadowColor: "black",
