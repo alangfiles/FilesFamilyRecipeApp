@@ -36,11 +36,11 @@ export default function App() {
             changeCategory("ALL");
           }}
         />
-        <CategoriesBox
+        {/* <CategoriesBox
           currentCategory={currentCategory}
           changeCategory={changeCategory}
           changeRecipe={changeRecipe}
-        />
+        /> */}
       </View>
 
       {recipes.length != 1 && (
