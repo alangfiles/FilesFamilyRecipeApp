@@ -472,7 +472,12 @@ var recipes = [
   {
     "title": "Gazpacho #3",
     "type": "SOUPS",
-    "recipe": "5 1/2 c. tomato juice (V-8)\n1 sm. can tomatoes\n2 cans tomato sauce\n1-T. green pepper flakes\n2 T. parsley\n1/2 tsp. garlic powder\n1/2 tsp. paprika\n1/2 tsp. Creole seasonings    Blend together and serve cold.\nMexican Stew—Jane Keahey’s\n\n2 lb. ground beef\n1 large onion, chopped (optional)\nBrown these together, drain, and add the following:\n\t1 pkg. Mild taco seasonings\n\t1 tsp. salt\n\t1/2 tsp. pepper\nMix and add:\n\t2 cans Veg-All (drained)\n\t2 cans plain pinto beans (not drained)\n\t2 can whole kernel corn (not drained)\n\t2 cans sliced new potatoes (drained)\n\t3 sm. cans tomato sauce (or 16 oz.)\n\nSimmer together awhile.  \nEasy dinner to take to someone as dinner served with cornbread, and brownies (maybe salad, too)"
+    "recipe": "5 1/2 c. tomato juice (V-8)\n1 sm. can tomatoes\n2 cans tomato sauce\n1-T. green pepper flakes\n2 T. parsley\n1/2 tsp. garlic powder\n1/2 tsp. paprika\n1/2 tsp. Creole seasonings    Blend together and serve cold.\n"
+  },
+  {
+    "title": "Mexican Stew—Jane Keahey’s",
+    "type": "SOUPS",
+    "2 lb. ground beef\n1 large onion, chopped (optional)\nBrown these together, drain, and add the following:\n\t1 pkg. Mild taco seasonings\n\t1 tsp. salt\n\t1/2 tsp. pepper\nMix and add:\n\t2 cans Veg-All (drained)\n\t2 cans plain pinto beans (not drained)\n\t2 can whole kernel corn (not drained)\n\t2 cans sliced new potatoes (drained)\n\t3 sm. cans tomato sauce (or 16 oz.)\n\nSimmer together awhile.  \nEasy dinner to take to someone as dinner served with cornbread, and brownies (maybe salad, too)",
   },
   {
     "title": "Mushroom Soup—The Breakers’   (Prep time: 45 min.)",
@@ -961,7 +966,7 @@ var recipes = [
   },
   {
     "title": "Black-Eyed Peas, Marinated—Salin Miller’s",
-    "type": "VEGETABLES AND FRUITS", 
+    "type": "VEGETABLES AND FRUITS",
     "recipe": "2-20oz. cans of black-eyed peas, drained\n1/2 C. salad oil\n1-2 cloves garlic\n1/2 tsp. salt\n1/2 C. wine vinegar\n1/4 C. chopped green onion\nFreshly ground pepper\nMix ingredients in bowl.  Place in a jar and refrigerate.  Garlic may be removed after 24 hr. Marinate at least 2 days and up to 2 wk.  \nDrain part of the liquid and serve. This is very good for a New Year’s Day party."
   },
   {
@@ -1599,7 +1604,7 @@ var recipes = [
     "type": "BEVERAGES",
     "recipe": "1 small can orange juice undiluted\n1 2-liter Big Red soda pop\nAdd together and serve!"
   },
-    {
+  {
     "title": "Hot Spiced Cranberry Cider--Michele O'Sullivan  via Sally Key",
     "type": "BEVERAGES",
     "recipe": "If desired, float a fresh lemon slice in each cup.  Servings:  25\n\n2 quarts apple cider\n6 cups cranberry juice\n1/4 cup packed brown sugar\n4 cinnamon sticks\n1 1/2 teaspoons whole cloves\n1 lemon, thinly sliced\n\nIn a large pot, combine apple cider, cranberry juice, brown sugar, cinnamon\nsticks, cloves and lemon slices. Bring to a boil, reduce heat, and simmer for 15 to 20 minutes. With a slotted spoon, remove cinnamon, cloves, and lemon slices.  Serve hot."
@@ -1629,9 +1634,9 @@ var recipes = [
     "type": "BEVERAGES",
     "recipe": "Bring one gallon of apple cider to a boil.\nAdd one small box of raspberry jello.  Stir until jello is all dissolved."
   },
-{
-    "title":"Age-Defying Shake—Pat Robertson",
-    "type":"BEVERAGES",
+  {
+    "title": "Age-Defying Shake—Pat Robertson",
+    "type": "BEVERAGES",
     "recipe": "6-8 oz. orange juice (water, other fruit juices, low-fat or skim milk can be substituted)\n5 Tablespoons soy protein isolate\n5 Tablespoons whey protein isolate\n2 Tablespoons natural apple cider vinegar\n1 tablespoon flaxseed oil\n1 tablespoon safflower oil\n2 tablespoons (or more) soy lecithin\n1 teaspoon MSM powder\n1 teaspoon glutamine powder\n5-6 frozen strawberries (or other fruits, e.g. peach, apple)\nNon-caloric sweetener to taste (aspartame not recommended)\n4-5 ice cubes (optional, use for a colder shake)\n\nIn a standard blender, combine the above ingredients.  \nBlend until the shake is smooth and the ice cubes are crushed.\nOptional ingredients you can try:\n2 tablespoons non-fat plain yogurt or 1 banana (gives more body to the drink)"
   },
   {
@@ -1639,10 +1644,10 @@ var recipes = [
     "type": "BEVERAGES",
     "recipe": " May want to add more sugar and apple juice and orange juice. Just do the taste test and make additions until it suits you. \n\n2 C. Apple juice \n6 C. Cranberry juice \n1 C. Orange juice \nJuice of 2 lemons (about 6 T.) \n6 whole cloves \n1 cinnamon stick (I used about 4) \n8 T. sugar to taste \n2 Oranges, sliced \n2 limes, sliced \n\nCombine all ingredients in large saucepan, except sliced lemons and limes. Stir mixture until sugar is dissolved, then cover and heat on low until punch comes to a boil. Stud the fruit slices with a few whole cloves. \nFloat as a garnish in the punch. Or a crabapple in each cup is a nice touch."
   },
-    {
-    "title":"Quick mix Beverage—Lesley Files",
-    "type":"BEVERAGES",
-    "recipe":"Add 1 envelope of instant Apple Cider mix to a glass of Sprite and stir.\n(Can use the diet variety if you prefer)"
+  {
+    "title": "Quick mix Beverage—Lesley Files",
+    "type": "BEVERAGES",
+    "recipe": "Add 1 envelope of instant Apple Cider mix to a glass of Sprite and stir.\n(Can use the diet variety if you prefer)"
   },
   {
     "title": "ABC Breakfast Rolls",
@@ -2161,7 +2166,7 @@ var recipes = [
   },
   {
     "title": "Easter Cookies",
-    "type":"COOKIES AND SWEET SNACKS",
+    "type": "COOKIES AND SWEET SNACKS",
     "recipe": "½ C. whole pecans (optional)\n1 tsp. vinegar \n3 egg whites \npinch of salt \n1 cup sugar \nzipper baggie \nwooden spoon \ntape \nBible (readings are in the Miscellaneous Section of this if want to use them)\n\nPreheat over to 300*F. \nPlace pecans in zipper baggie.\nLet children beat pecans into very, very small pieces with the wooden spoon. \nExplain that after Jesus was arrested he was beaten by the Roman soldiers. \n\nLet each child smell the vinegar. \nPut 1 tsp. vinegar into mixing bowl. \nExplain that when Jesus was thirsty on the cross, he was given vinegar to drink. \n\nAdd egg whites to vinegar. \nEggs represent life. Explain that Jesus gave his life to us. \n\nSprinkle a little salt into each child's hand. \nLet them taste and brush the rest into the bowl.\nExplain how this represents the salty tears shed by Jesus' followers, and the bitterness of our own sin. \n\nNote that so far the ingredients are not very appetizing. \n\nAdd 1 cup sugar. \nExplain that the sweetest part of the story is that Jesus died because he loves us. \nHe wants us to know Him and belong to Him. \n\nBeat with mixer on high speed for 12-15 minutes until stiff peaks are formed. \nExplain that the white color represents purity in God's eyes of those whose sins have been cleansed by Jesus. \n\nFold in broken nuts. Drop by teaspoons onto wax paper covered cookie sheet. \nExplain that each mound represents the rocky tomb where Jesus' body was laid. \nPut the cookie sheet in the oven, close the door and turn the oven OFF. \nGive each child a piece of tape and seal the oven door.\nExplain that Jesus' tomb was sealed.\nLeave cookies in oven, and go to bed.\nExplain that they may feel sad to leave the cookies in the oven overnight. \nJesus followers were in despair when the tomb was sealed. \n\nOn Easter morning, open the oven and give everyone a cookie.\nNotice the cracked surface and take a bite. The cookies are hollow! Like the empty tomb!  On the first Easter, Jesus followers were amazed to find the tomb open and empty.  He is risen!"
   },
   {
