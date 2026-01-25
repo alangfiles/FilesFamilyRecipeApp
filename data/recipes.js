@@ -362,7 +362,12 @@ var recipes = [
   {
     "title": " Macaroni Salad-- St. Francis’",
     "type": "SALADS",
-    "recipe": "2 C. cooked curly macaroni (1 3/4 C. uncooked)\n3/4 c. mayonnaise\n1/2 t. salt\n1/4 t. pepper\n1/2 green pepper, chopped\n3 slices ham--cubed\n1 T. onion\n6 slices American cheese, cubed\nSm. amt. French dressing\n2 hard-boiled eggs (opt)\n1 t. mustard.\nMix all and chill.\n\nMarinated Mushroom/Artichoke Heart, Salad\n\n1 1/2 C. water\n1 1/2 C. apple cider vinegar\n1/2 C. salad oil\n2 cloves garlic, crushed\n1/2 tsp. sweet basil\n1/2 tsp. oregano\n1/2 tsp. thyme\n1/2 tsp. pepper\n1 tsp. salt\nMix together and add 1 lb. mushrooms and large drained can artichoke hearts.\nMarinate 24 hr., and serve cold."
+    "recipe": "2 C. cooked curly macaroni (1 3/4 C. uncooked)\n3/4 c. mayonnaise\n1/2 t. salt\n1/4 t. pepper\n1/2 green pepper, chopped\n3 slices ham--cubed\n1 T. onion\n6 slices American cheese, cubed\nSm. amt. French dressing\n2 hard-boiled eggs (opt)\n1 t. mustard.\nMix all and chill."
+  },
+  {
+    "title": "Marinated Mushroom/Artichoke Heart Salad",
+    "type": "SALADS",
+    "recipe": "1 1/2 C. water\n1 1/2 C. apple cider vinegar\n1/2 C. salad oil\n2 cloves garlic, crushed\n1/2 tsp. sweet basil\n1/2 tsp. oregano\n1/2 tsp. thyme\n1/2 tsp. pepper\n1 tsp. salt\nMix together and add 1 lb. mushrooms and large drained can artichoke hearts.\nMarinate 24 hr., and serve cold."
   },
   {
     "title": " Okra Salad- Sharlette White’s",
@@ -477,12 +482,17 @@ var recipes = [
   {
     "title": "Mexican Stew—Jane Keahey’s",
     "type": "SOUPS",
-    "2 lb. ground beef\n1 large onion, chopped (optional)\nBrown these together, drain, and add the following:\n\t1 pkg. Mild taco seasonings\n\t1 tsp. salt\n\t1/2 tsp. pepper\nMix and add:\n\t2 cans Veg-All (drained)\n\t2 cans plain pinto beans (not drained)\n\t2 can whole kernel corn (not drained)\n\t2 cans sliced new potatoes (drained)\n\t3 sm. cans tomato sauce (or 16 oz.)\n\nSimmer together awhile.  \nEasy dinner to take to someone as dinner served with cornbread, and brownies (maybe salad, too)",
+    "recipe": "2 lb. ground beef\n1 large onion, chopped (optional)\nBrown these together, drain, and add the following:\n\t1 pkg. Mild taco seasonings\n\t1 tsp. salt\n\t1/2 tsp. pepper\nMix and add:\n\t2 cans Veg-All (drained)\n\t2 cans plain pinto beans (not drained)\n\t2 can whole kernel corn (not drained)\n\t2 cans sliced new potatoes (drained)\n\t3 sm. cans tomato sauce (or 16 oz.)\n\nSimmer together awhile.  \nEasy dinner to take to someone as dinner served with cornbread, and brownies (maybe salad, too)",
   },
   {
     "title": "Mushroom Soup—The Breakers’   (Prep time: 45 min.)",
     "type": "SOUPS",
-    "recipe": "Makes 1 blender full or 6 C.\n\n3 T. butter\n1/2 lb. fresh mushrooms, chopped (reserve 1/8 lb. and slice for garnish)\n1/2 C. chopped onions\n1/4 C. chopped celery\n1 1/2 cloves fresh garlic, minced\n2 T. flour\n4 1/2 C. chicken stock—(2 cans broth plus 2 cans water)\n1 C. heavy cream\n2 T. dry Marsala wine\n2 T. dry sherry wine\nSalt and pepper to taste\nDash of nutmeg\nIn 4 Qt. saucepan, melt butter; add chopped mushrooms, onion, celery, and garlic.  \nSauté until mushrooms soften and lose their liquid. \nDust flour over mixture and continue cooking for about 2 min.\nWhile stirring constantly, add chicken stock and bring to full boil.\nReduce heat and simmer 8-10 min. (until flour can’t be tasted)\nBlend and puree mixture in blender and return to saucepan. \nStir in cream and let set 5 min. on low heat, (do not boil).\nGarnish:  In a separate saucepan, heat Marsala and sherry wine.  \nAdd sliced mushrooms, blanch until softened and add to soup.  \nSeason with salt, white pepper, and nutmeg.  Makes 4-5 generous servings.  \n\nMushroom Soup, Easy\n\n2--10 oz. cans cream of mushroom soup\n2  soup cans milk\n1/4 lb. mushrooms\n2 T. butter\n1/4 C. sherry\nCombine soup and milk; heat.\nSauté mushrooms in butter and add to steaming soup.  \nStir in sherry and serve. Serves 2-4."
+    "recipe": "Makes 1 blender full or 6 C.\n\n3 T. butter\n1/2 lb. fresh mushrooms, chopped (reserve 1/8 lb. and slice for garnish)\n1/2 C. chopped onions\n1/4 C. chopped celery\n1 1/2 cloves fresh garlic, minced\n2 T. flour\n4 1/2 C. chicken stock—(2 cans broth plus 2 cans water)\n1 C. heavy cream\n2 T. dry Marsala wine\n2 T. dry sherry wine\nSalt and pepper to taste\nDash of nutmeg\nIn 4 Qt. saucepan, melt butter; add chopped mushrooms, onion, celery, and garlic.  \nSauté until mushrooms soften and lose their liquid. \nDust flour over mixture and continue cooking for about 2 min.\nWhile stirring constantly, add chicken stock and bring to full boil.\nReduce heat and simmer 8-10 min. (until flour can’t be tasted)\nBlend and puree mixture in blender and return to saucepan. \nStir in cream and let set 5 min. on low heat, (do not boil).\nGarnish:  In a separate saucepan, heat Marsala and sherry wine.  \nAdd sliced mushrooms, blanch until softened and add to soup.  \nSeason with salt, white pepper, and nutmeg.  Makes 4-5 generous servings."
+  },
+  {
+    "title": "Mushroom Soup, Easy",
+    "type": "SOUPS",
+    "recipe": "2--10 oz. cans cream of mushroom soup\n2  soup cans milk\n1/4 lb. mushrooms\n2 T. butter\n1/4 C. sherry\nCombine soup and milk; heat.\nSauté mushrooms in butter and add to steaming soup.  \nStir in sherry and serve. Serves 2-4."
   },
   {
     "title": " Pea Soup—St. Andrew’s Church-Lawton",
@@ -607,7 +617,12 @@ var recipes = [
   {
     "title": " Roast, Standing Rib, with Red Wine Sauce (English Christmas Dinner)",
     "type": "BEEF DISHES",
-    "recipe": "1 6-8 lb. standing rib roast  (Serves 6-8 people)\n2 cloves garlic\n1 lg. onion, thinly sliced\nSalt and freshly ground pepper\n1 1/2 c. dry red wine\n2-c. beef, veal or chicken stock\nTrim most of fat off meat, leaving no more than a 1/4 in. layer.\nPlace meat with bone side down in shallow roasting pan just big enough to hold roast.\nCut garlic pieces in two and rub it all over meat.\nSalt and pepper generously.  Leave garlic in pan. Scatter onion around meat.\nRoast in 325-degree oven for 20 min.  \nPour 1/2 c. of wine over meat. Baste frequently, adding about 1/4 c. of wine every 1/2 hr.\nContinue roasting until meat thermometer shows 125 to 130 degrees, for rare.\nCan go to 140 degrees, for not bloody. Total cooking time is around 2 1/2 hr.\n\nAu Jus: Remove meat to warm platter and cover with foil.\nSkim fat from pan, and put pan with remaining drippings over high heat on stove.\nAdd stock and bring to boil, scraping up any browned bits on bottom of pan.  \nCook for 8 min, stirring frequently. Season with salt and pepper.  Strain. \nServe with meat.  (Great served with Yorkshire Pudding--in starch section).\nRoast—Hazel Reilly’s\n\n1 Roast (brisket, maybe order one rolled and tied for baking, like a rolled rib) \n1 pkg. dry onion soup mix--Using wooden spoon handle, poke all the soup mix into the roll, in the folds, not pound in meat.\nWrap in two sheets of foil and bake 6 hr. at 250. Put in at noon for dinner that night."
+    "recipe": "1 6-8 lb. standing rib roast  (Serves 6-8 people)\n2 cloves garlic\n1 lg. onion, thinly sliced\nSalt and freshly ground pepper\n1 1/2 c. dry red wine\n2-c. beef, veal or chicken stock\nTrim most of fat off meat, leaving no more than a 1/4 in. layer.\nPlace meat with bone side down in shallow roasting pan just big enough to hold roast.\nCut garlic pieces in two and rub it all over meat.\nSalt and pepper generously.  Leave garlic in pan. Scatter onion around meat.\nRoast in 325-degree oven for 20 min.  \nPour 1/2 c. of wine over meat. Baste frequently, adding about 1/4 c. of wine every 1/2 hr.\nContinue roasting until meat thermometer shows 125 to 130 degrees, for rare.\nCan go to 140 degrees, for not bloody. Total cooking time is around 2 1/2 hr.\n\nAu Jus: Remove meat to warm platter and cover with foil.\nSkim fat from pan, and put pan with remaining drippings over high heat on stove.\nAdd stock and bring to boil, scraping up any browned bits on bottom of pan.  \nCook for 8 min, stirring frequently. Season with salt and pepper.  Strain. \nServe with meat.  (Great served with Yorkshire Pudding--in starch section).\n"
+  },
+  {
+    "title":"Roast—Hazel Reilly’s",
+    "type":"BEEF DISHES",
+    "recipe":"\n\n1 Roast (brisket, maybe order one rolled and tied for baking, like a rolled rib) \n1 pkg. dry onion soup mix--Using wooden spoon handle, poke all the soup mix into the roll, in the folds, not pound in meat.\nWrap in two sheets of foil and bake 6 hr. at 250. Put in at noon for dinner that night."
   },
   {
     "title": "Round Steak, Wine Sauced ",
