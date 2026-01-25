@@ -2085,9 +2085,9 @@ var recipes = [
     "recipe": "About 5 lg. sweet potatoes Bake about 1 hr. at 350. (Maybe not that long) Peel?\nCut into ½-1” squares\nCook 1 lb. bacon and drain\nFry sweet, chopped onion in bacon grease\nAdd honey to taste\nAdd in cubed sweet potatoes and continue cooking in skillet about 20 min.\nAdd salt and pepper to taste."
   },
   {
-    "title": "     DESSERTS",
+    "title": "Berry Crisp—Connie Daniel",
     "type": "DESSERTS",
-    "recipe": "Berry Crisp—Connie Daniel\n1  16 oz. pkg. frozen mixed berries\n2 T. flour\n¼ C. sugar\nMix together and fill an 8 x 8 pan\n\nTopping:\n1 C. oats\n1 C. brown sugar\n1 C. flour\n1 stick butter (softened)\nMix together into a crumbly mixture.  Top berries and bake at 375 until golden and bubbly.  (about 30-40 min.) (Might want to double fruit part only)"
+    "recipe": "1  16 oz. pkg. frozen mixed berries\n2 T. flour\n¼ C. sugar\nMix together and fill an 8 x 8 pan\n\nTopping:\n1 C. oats\n1 C. brown sugar\n1 C. flour\n1 stick butter (softened)\nMix together into a crumbly mixture.  Top berries and bake at 375 until golden and bubbly.  (about 30-40 min.) (Might want to double fruit part only)"
   },
   {
     "title": "Irish Cream Bundt Cake-- via Sally Key  (serves 12)",
