@@ -2027,7 +2027,12 @@ var recipes = [
   {
     "title": "Asian Grilled Salmon –Natalie Files",
     "type": "FISH",
-    "recipe": "2 teaspoons Dijon mustard\n3 Tablespoons Soy sauce\n6 Tablespoons Olive oil\n1/2 teaspoon chopped garlic\n\nMix together and pour over salmon.\nMarinate salmon for 30 minutes to an hour\nMed/High grill\nCook until done (depending on thickness)\n\nBaked Salmon—Gina Romanelli\n\nSoak salmon servings in mixture of ½ lemon juice and ½ olive oil for 10-20 min. or so. Remove from soak and place salmon servings in shallow baking dish and top with bread crumbs, parmesan cheese, parsley, salt and pepper, and minced garlic.\nBake in 400 oven for about 15-20 min. (for about 1” thick salmon pieces). \nWhen cooked, can add more lemon juice on top and drizzle with more olive oil if desired."
+    "recipe": "2 teaspoons Dijon mustard\n3 Tablespoons Soy sauce\n6 Tablespoons Olive oil\n1/2 teaspoon chopped garlic\n\nMix together and pour over salmon.\nMarinate salmon for 30 minutes to an hour\nMed/High grill\nCook until done (depending on thickness)"
+  },
+  {
+    "title": "Baked Salmon—Gina Romanelli",
+    "type": "FISH",
+    "recipe": "Soak salmon servings in mixture of ½ lemon juice and ½ olive oil for 10-20 min. or so. Remove from soak and place salmon servings in shallow baking dish and top with bread crumbs, parmesan cheese, parsley, salt and pepper, and minced garlic.\nBake in 400 oven for about 15-20 min. (for about 1” thick salmon pieces). \nWhen cooked, can add more lemon juice on top and drizzle with more olive oil if desired."
   },
   {
     "title": "“Chicken” Haddy—Karin Files’ family cookbook",
